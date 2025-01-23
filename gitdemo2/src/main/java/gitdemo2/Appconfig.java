@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Appconfig {
 
-	@Bean
+	@Bean(name="st")
 	public Student s() {
 	Student s= new Student();
 	s.setRollno(11);
